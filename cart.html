@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Ecommerce Project</title>
+        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+
+    <!-- NAVBAR SECTION -->
+    <section id="header">
+    <!-- <nav class="navbar-nav navbar-outline-lg navbar-bg-dark"> -->
+        <a class="navbar-brand">
+            <img src="img/logo.png" alt="logo.png" width="150" height="150">
+        </a>
+        <button class="navbar-toggler" data-target="" type="button">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="navbar-collapse">
+            <ul id="navbar">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li id="lg-bag"><a class="active" href="cart.html"><i class="far fa-shopping-bag"></i></a></li>
+                <a href="#" id="close"><i class="far fa-times"></i></a>
+            </ul>
+        </div>
+
+        <div id="mobile">
+            <a href="cart.html"><i class="far fa-shopping-bag"></i></a>
+            <i id="bar" class="fas fa-outdent"></i>
+        </div>
+    <!-- </nav> -->
+    </section>
+
+    <section id="cart-header" class="about-header">
+        <h2>#cart</h2>
+        <p>Add your coupon code & SAVE upto 70%!</p>
+    </section>
+
+    <section id="cart" class="section-p1">
+        <table width="100%">
+            <thead>
+                <tr>
+                    <td>Remove</td>
+                    <td>Image</td>
+                    <td>Product</td>
+                    <td>Price</td>
+                    <td>Quantity</td>
+                    <td>Subtotal</td>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td><a href="#"><i class="far fa-times-circle"></i></a></td>
+                    <td><img src="img/products/f1.jpg" alt=""></td>
+                    <td>Cartoon Astronaut T-shirts</td>
+                    <td>$119.79</td>
+                    <td><input type="number" value="1"></td>
+                    <td>$119.79</td>
+                </tr>
+
+                <tr>
+                    <td><a href="#"><i class="far fa-times-circle"></i></a></td>
+                    <td><img src="img/products/f2.jpg" alt=""></td>
+                    <td>Cartoon Astronaut T-shirts</td>
+                    <td>$119.79</td>
+                    <td><input type="number" value="1"></td>
+                    <td>$119.79</td>
+                </tr>
+
+                <tr>
+                    <td><a href="#"><i class="far fa-times-circle"></i></a></td>
+                    <td><img src="img/products/f3.jpg" alt=""></td>
+                    <td>Cartoon Astronaut T-shirts</td>
+                    <td>$119.79</td>
+                    <td><input type="number" value="1"></td>
+                    <td>$119.79</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section id="cart-add" class="section-p1">
+        <div id="coupon">
+            <h3>Apply Coupon</h3>
+            <div>
+                <input type="text" placeholder="Enter Your Coupon">
+                <button class="normal">Apply</button>
+            </div>
+        </div>
+
+        <div id="subtotal">
+            <h3>Cart Subtotal</h3>
+            <table>
+                <tr>
+                    <td>Cart Subtotal</td>
+                    <td>$ 335</td>
+                </tr>
+                <tr>
+                    <td>Shipping</td>
+                    <td>Free</td>
+                </tr>
+                <tr>
+                    <td>Total</td>
+                    <td>$ 335</td>
+                </tr>
+            </table>
+            <button class="normal">Proceed to checkout</button>
+        </div>
+    </section>
+
+    <script src="script.js" type="text/javascript"></script>    
+    </body>
+</html>
